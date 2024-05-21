@@ -25,9 +25,9 @@ The trained model is evaluated on the testing data (X_test and Y_test) to measur
 
 # Usage
 1. Clone the repository: <br>
-    [gh repo clone J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks](https://github.com/J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks.git) <br>
+    https://github.com/J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks.git <br>
 2. Navigate to the project directory: <br>
-    cd Digit-Classification-ANN <br>
+    cd MNIST-Digit-Classification-Using-Neural-Networks <br>
 3. Install required libraries <br>
     pip install tensorflow numpy matplotlib seaborn opencv-python google-colab <br>
 4. Run all the cells <br>
