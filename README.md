@@ -4,7 +4,7 @@ This project aims to classify hand-written digits using an Artificial Neural Net
 The project involves building and training a deep learning model to classify hand-written digits (0-9). The model architecture is based on an Artificial Neural Network (ANN).
 
 # Requirements
-Python 3.x
+Python 3.x <br>
 TensorFlow
 NumPy
 Matplotlib
