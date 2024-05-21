@@ -23,6 +23,28 @@ The model is trained using the training data (X_train and Y_train) obtained from
 # Evaluation
 The trained model is evaluated on the testing data (X_test and Y_test) to measure its performance in classifying hand-written digits.
 
+# Predictive System
+
+input_image_path = input('Path of the image to be predicted :')
+
+input_image = cv2.imread(input_image_path)
+
+cv2_imshow(input_image)
+
+grayscale_image = cv2.cvtColor(input_image, cv2.COLOR_RGB2GRAY)
+
+input_image_resize = cv2.resize(grayscale_image, (28, 28))
+
+input_image_resize = input_image_resize/255
+
+image_reshaped = np.reshape(input_image_resize, [1, 28, 28])
+
+input_prediction = model.predict(image_reshaped)
+
+input_pred_label = np.argmax(input_prediction)
+
+print('The Handwritten Digit is recognized as ', input_pred_label)
+
 # Usage
 1. Clone the repository: <br>
     https://github.com/J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks.git <br>
