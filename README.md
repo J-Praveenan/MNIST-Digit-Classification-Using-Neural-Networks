@@ -4,15 +4,14 @@ This project aims to classify hand-written digits using an Artificial Neural Net
 The project involves building and training a deep learning model to classify hand-written digits (0-9). The model architecture is based on an Artificial Neural Network (ANN).
 
 # Requirements
-Python 3.x <br>
-TensorFlow
-NumPy
-Matplotlib
-Seaborn
-OpenCV
-Google Colab (for development and experimentation)
-Installation
-You can install the required dependencies using pip:
+1. Python 3.x <br>
+2. TensorFlow <br>
+3. NumPy <br>
+4. Matplotlib <br>
+5. Seaborn <br>
+6. OpenCV <br>
+7. Google Colab (for development and experimentation) <br>
+
 
 # Dataset
 The MNIST dataset is used in this project, which is a widely-used dataset for hand-written digit classification. It consists of 60,000 training images and 10,000 testing images, each of size 28x28 pixels.
@@ -25,19 +24,19 @@ The model is trained using the training data (X_train and Y_train) obtained from
 The trained model is evaluated on the testing data (X_test and Y_test) to measure its performance in classifying hand-written digits.
 
 # Usage
-1. Clone the repository:
-    [gh repo clone J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks](https://github.com/J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks.git)
-2. Navigate to the project directory:
-    cd Digit-Classification-ANN
-3. Install required libraries
-    pip install tensorflow numpy matplotlib seaborn opencv-python google-colab
-4. Run all the cells
-    Results
+1. Clone the repository: <br>
+    [gh repo clone J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks](https://github.com/J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks.git) <br>
+2. Navigate to the project directory: <br>
+    cd Digit-Classification-ANN <br>
+3. Install required libraries <br>
+    pip install tensorflow numpy matplotlib seaborn opencv-python google-colab <br>
+4. Run all the cells <br>
+    Results <br>
    
 # The performance of the trained model on the testing data is as follows:
 
-Training data accuracy = 98.88 %
-Testing data accuracy = 97.54 %
-Confusion Matrix:
+Training data accuracy = 98.88 % <br>
+Testing data accuracy = 97.54 % <br>
+Confusion Matrix: <br>
 ![ConfusionMetrics](https://github.com/J-Praveenan/MNIST-Digit-Classification-Using-Neural-Networks/assets/138190595/e389b95a-1fdb-4669-b4a2-4efb033d9027)
 
